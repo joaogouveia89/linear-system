@@ -23,7 +23,8 @@ end
 
 # problem application
 start = Time.now
-LinearSystemMethod.gauss_elimination linear_system, nofvar
+lsm = LinearSystemMethod.new(linear_system, nofvar)
+lsm.gauss_elimination
 finish = Time.now
 
 puts("solved all the test cases in " + (1000 * (finish - start)).round(2).to_s + "ms")
