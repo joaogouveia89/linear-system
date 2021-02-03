@@ -7,11 +7,11 @@ Solve linear systems in different numeric methods, iterative and non iterative
 
 ### Example
 
-3x + 2y + 4z = 1
-x  + y  + 2z = 2
-4x + 3y - 2z = 3 
-
-x = -3; y = 5; z = 0
+3x + 2y + 4z = 1<br/>
+x  + y  + 2z = 2<br/>
+4x + 3y - 2z = 3<br/>
+<br/>
+x = -3; y = 5; z = 0<br/>
 
 ### Usage
 
@@ -28,7 +28,7 @@ ruby linear_system.rb
 txt file inside test-cases/input folder with the mandatory name input.txt containing linear system in the format of matrix
 
 example with the description matrix
-
-3 2 4 1
-1 1 2 2
-4 3 -2 3
+<br/>
+3 2 4 1<br/>
+1 1 2 2<br/>
+4 3 -2 3<br/>
