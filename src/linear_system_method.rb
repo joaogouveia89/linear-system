@@ -46,6 +46,14 @@ class LinearSystemMethod
 		@result.reverse!
 	end
 
+	def gauss_jacobi
+		puts("gauss_jacobi")
+	end
+
+	def gauss_seidl
+		puts("gauss_seidl")
+	end
+
 
 	def get_results_to_d
 		@result.map(&:to_d)
