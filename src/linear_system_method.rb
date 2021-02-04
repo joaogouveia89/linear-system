@@ -2,10 +2,12 @@ class LinearSystemMethod
 
 	attr_reader :result
 
-	def initialize linear_system, nofvar
+	def initialize linear_system, nofvar, error = 0, approaches = nil
 		@linear_system = linear_system
 		@nofvar = nofvar
 		@result = []
+		@error = error
+		@approaches = approaches
 	end
 	def gauss_elimination
 		original_system = @linear_system.map(&:clone)
