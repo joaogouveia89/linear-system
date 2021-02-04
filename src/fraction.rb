@@ -36,8 +36,8 @@ class Fraction
 	def *(other)
 		if other.instance_of? Fraction
 			Fraction.new(
-				@numerator * other.numerator,
-				@denominator * other.denominator
+				(@numerator * other.numerator),
+				(@denominator * other.denominator)
 				)
 		else
 			self * Fraction.new(other)

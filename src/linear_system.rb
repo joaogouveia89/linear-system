@@ -17,7 +17,7 @@ data.each do |line|
 		unless el.match?(/[[:digit:]]/)
 			raise "Invalid element '" + el + "', you must use only integer numbers"
 		end
-		linear_system << el.to_i
+		linear_system << Fraction.new(el.to_i)
 	end
 end
 
